@@ -43,7 +43,7 @@ cd jusvyka-DS.v3.1.4.5/
    ```bash
    source venv/bin/activate
    ```
-3. **Install coursera_analysis package**
+3. **Install project_name package**
    ```bash
    pip install .
    ```
