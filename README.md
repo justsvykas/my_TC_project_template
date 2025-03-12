@@ -14,7 +14,8 @@ Here I keep all the files and structure of my projects to ease development proce
    **Note** User path might be different
 - commit and push to submission repo
 
------------- **Template below** ------------------
+**Template below**
+---
 # Analysis
 
 What is the main goal? What data are we using?
