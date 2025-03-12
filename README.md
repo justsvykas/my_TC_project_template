@@ -9,11 +9,12 @@ Here I keep all the files and structure of my projects to ease development proce
 - copy the contents of template into submission repo directory
    **for Linux/Mac:**
    ```bash
-   rsync -av --progress /path/to/project-template/ ./ --exclude='.git'
+   rsync -av --progress /root/Turing_College/project_tamplate/ ./ --exclude='.git'
    ```
+   **Note** User path might be different
 - commit and push to submission repo
 
-----------------------**Template below**-----------------------------
+___________________________________________**Template below**__________________________________________
 # Analysis
 
 What is the main goal? What data are we using?
