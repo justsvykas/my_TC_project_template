@@ -52,7 +52,7 @@ cd jusvyka-DS.v3.1.4.5/
 
 Go to directory
 ```bash
-cd src/coursera_analysis/
+cd src/project_name/
 ```
 Open main analysis file
 ```bash
