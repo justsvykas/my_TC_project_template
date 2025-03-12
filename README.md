@@ -16,6 +16,9 @@ Here I keep all the files and structure of my projects to ease development proce
 
 **Template below**
 ---
+
+---
+
 # Analysis
 
 What is the main goal? What data are we using?
