@@ -1,3 +1,19 @@
+# Project Template
+
+Here I keep all the files and structure of my projects to ease development process in Turing College
+
+# Usage of template:
+
+- clone this repo into your local machine
+- clone submission repo to your favorite projects directory
+- copy the contents of template into submission repo directory
+   **for Linux/Mac:**
+   ```bash
+   rsync -av --progress /path/to/project-template/ ./ --exclude='.git'
+   ```
+- commit and push to submission repo
+
+----------------------**Template below**-----------------------------
 # Analysis
 
 What is the main goal? What data are we using?
@@ -9,11 +25,11 @@ This analysis is structured to be easily continued by another developer, with de
 
 After placing yourself in your desired directory, run this command in your terminal to copy this repo.
 ```bash
-git clone https://github.com/TuringCollegeSubmissions/jusvyka-DS.v3.1.4.5
+git clone my_repo_url
 ```
 Go to project directory.
 ```bash
-cd jusvyka-DS.v3.1.4.5/
+cd my_dir/
 ```
 ## Windows
 1. **Create a virtual environment:**
@@ -28,7 +44,7 @@ cd jusvyka-DS.v3.1.4.5/
     ```
     venv\Scripts\activate.bat
     ```
-3. **Install coursera_analysis package**
+3. **Install project_name package**
    ```powershell
    pip install .
    ```
