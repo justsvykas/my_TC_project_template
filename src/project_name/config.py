@@ -1,0 +1,4 @@
+import os
+
+SECRET_API = os.getenv("SECRET_API")
+DEFINETELY_NOT_SECRET = os.getenv("DEFINETELY_NOT_SECRET")

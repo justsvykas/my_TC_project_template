@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "project_name"
+version = "0.1.0"
+description = "My project_name"
+authors = ["Justinas"]
+readme = "README.md"
+package-mode = true
+packages = [
+    { include = "project_name", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.1.0"
+poetry = "^2.1.1"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
