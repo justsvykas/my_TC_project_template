@@ -71,7 +71,7 @@ For managing Python versions consider using [pyenv](https://github.com/pyenv/pye
 
 ```bash
 .
-├── 145.md                        # Documentation file for the task given by TC
+├── ___.md                        # Documentation file for the task given by TC
 ├── .gitignore                    # Specifies files to ignore in Git version control
 ├── .pre-commit-config.yaml       # Configuration for pre-commit hooks
 ├── README.md                     # Project documentation
