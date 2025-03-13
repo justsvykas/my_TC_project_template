@@ -30,11 +30,11 @@ This analysis is structured to be easily continued by another developer, with de
 
 After placing yourself in your desired directory, run this command in your terminal to copy this repo.
 ```bash
-git clone my_repo_url
+git clone myrepo_url
 ```
 Go to project directory.
 ```bash
-cd my_dir/
+cd my_repo_dir
 ```
 ## Windows
 1. **Create a virtual environment:**
@@ -49,6 +49,7 @@ cd my_dir/
     ```
     venv\Scripts\activate.bat
     ```
+3. **Install project_name package**
 3. **Install project_name package**
    ```powershell
    pip install .
