@@ -6,7 +6,7 @@ authors = ["Justinas"]
 readme = "README.md"
 package-mode = true
 packages = [
-    { include = "package", from = "src" }
+    { include = "package_name", from = "src" }
 ]
 
 [tool.poetry.dependencies]
