@@ -81,7 +81,7 @@ For using poetry take a look at [poetry installation](https://python-poetry.org/
 ├── pyproject.toml                # Python project configuration (Poetry)
 ├── ruff.toml                     # Formatter and linter configuration (Ruff)
 ├── src                           # Source code directory
-│    └── mental_health           # Package directory
+│    └── project_name             # Package directory
 │       ├── __init__.py          # Marks this directory as a package
 │       ├── main.ipynb           # Main analysis notebook
 │       └── utils/               # Directory for utility files
