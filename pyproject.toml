@@ -1,20 +1,25 @@
 [tool.poetry]
 name = "project_name"
 version = "0.1.0"
-description = "My project_name"
+description = ""
 authors = ["Justinas"]
 readme = "README.md"
 package-mode = true
 packages = [
-    { include = "project_name", from = "src" }
+    { include = "package", from = "src" }
 ]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+matplotlib = "^3.10.1"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+kagglehub = "^0.3.10"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^4.1.0"
 poetry = "^2.1.1"
+ipykernel = "^6.29.5"
 
 [tool.pytest.ini_options]
 pythonpath = "src"
